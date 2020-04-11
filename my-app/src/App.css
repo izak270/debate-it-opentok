@@ -1,0 +1,138 @@
+.App {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF966;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 70vh;
+    /*margin-top: 20%;*/
+    background-color: #66FF87;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.title {
+    width: 50%;
+    height: 20%;
+
+    text-align: center;
+}
+
+.time {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 60%;
+}
+
+.myTurn {
+    display: flex;
+    flex-direction: column;
+    justify-conten: center;
+    align-items: center;
+    width: 37%;
+    height: 72%;
+    border: solid green 4px;
+    border-radius: 10px;
+}
+.notMyTurn{
+    display: flex;
+    flex-direction: column;
+    justify-conten: center;
+    align-items: center;
+    width: 33%;
+    height: 68%;
+    border: solid red 4px;
+    border-radius: 10px;
+}
+.startProfile{
+     display: flex;
+    flex-direction: column;
+    justify-conten: center;
+    align-items: center;
+    width: 35%;
+    height: 70%;
+    border: solid cornflowerblue 4px;
+    border-radius: 10px;
+}
+
+
+.player1Pic {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.player2Pic {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 13%;
+    box-shadow: 0px 10px 14px -7px #3dc21b;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    /*font-size:20px;*/
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    width: 20%;
+    /*margin-top: 30%;*/
+    align-self: start;
+    justify-self: end;
+    /*border-radius: 20px;*/
+}
+
+.pass {
+    background-color: #44c767;
+    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+
+}
+
+.burst {
+    background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+    background-color: #d0451b;
+}
+
+.start {
+    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    background-color: yellowgreen;
+}
+
+.time .right {
+
+    margin-left: 58%;
+
+
+}
+
+.time .left {
+
+
+}
