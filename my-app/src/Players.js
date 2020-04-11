@@ -25,8 +25,8 @@ export default function Players(props) {
     }
 
     return (
-        <div className={'players'}>
-            <Player css={player1[1]} image={player1[2]} name={player1[0]} profile = {profileActive}/>
+        <div id="videos" className={'players'}>
+            <Player id='subscriber' css={player1[1]} image={player1[2]} name={player1[0]} profile = {profileActive}/>
             {startGame && !audience &&
                 <button
                     className={button} onClick={passOrBurstFunc}>{button}
@@ -38,7 +38,7 @@ export default function Players(props) {
                 </button>
             }
 
-            <Player css={player2[1]} image={player2[2]} name={player2[0]} profile = {profileNotActive}/>
+            <Player id='publisher' css={player2[1]} image={player2[2]} name={player2[0]} profile = {profileNotActive}/>
         </div>
     )
 }

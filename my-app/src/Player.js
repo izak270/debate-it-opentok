@@ -6,10 +6,11 @@ export default function Player(props) {
     const {image} = props
     const {name} = props
     const {profile} = props
-
+    const {id} = props
+    
     return (
-        <div className={profile}>
-            <img className={css} src={image}/>
+        <div id= {id} className={profile}>
+            {/* <img className={css} src={image}/> */}
             <p>{name}</p>
         </div>
     )
